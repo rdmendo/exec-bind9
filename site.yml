@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: bind9
 
   roles:
     - ansible-role-bind9
