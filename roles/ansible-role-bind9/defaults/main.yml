@@ -8,7 +8,7 @@ bind9_group: bind
 bind9_recursor: no
 
 # Run bind as authoritative nameserver?
-bind9_authoritative: yes
+bind9_authoritative: no
 
 # run bind with forwarding?
 bind9_forward: no
