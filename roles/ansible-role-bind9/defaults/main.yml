@@ -8,10 +8,10 @@ bind9_group: bind
 bind9_recursor: no
 
 # Run bind as authoritative nameserver?
-bind9_authoritative: no
+bind9_authoritative: yes
 
 # run bind with forwarding?
-bind9_forward: no
+bind9_forward: yes
 
 # Setup DNSSEC for recursor and zones?
 bind9_dnssec: no
@@ -70,7 +70,7 @@ bind9_statistics_enabled: False
 #         `templates/bind/zones/db.template.j2` for yaml structure)
 # bind9_zone_static:  zone files copied from `files/bind/zones/`
 bind9_zones_dynamic: []
-bind9_zones_static: []
+bind9_zones_static: [name: it.orientalgroup.com, type=master]
 
 # Authoritative include files
 bind9_authoritative_includes: []
