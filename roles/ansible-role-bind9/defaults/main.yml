@@ -70,7 +70,7 @@ bind9_statistics_enabled: False
 #         `templates/bind/zones/db.template.j2` for yaml structure)
 # bind9_zone_static:  zone files copied from `files/bind/zones/`
 bind9_zones_dynamic: []
-bind9_zones_static: [name: it.orientalgroup.com, type=master]
+bind9_zones_static: []
 
 # Authoritative include files
 bind9_authoritative_includes: []
