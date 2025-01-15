@@ -1,5 +1,8 @@
 ---
-- hosts: 192.168.130.2 bind9_forward_servers=8.8.8.8
+- hosts: 192.168.130.2 
+    bind9_forward_servers:
+      - 8.8.8.8
+      - 8.8.4.4
 
   roles:
     - ansible-role-bind9
