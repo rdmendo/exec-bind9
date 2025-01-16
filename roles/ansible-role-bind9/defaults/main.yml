@@ -72,7 +72,7 @@ bind9_statistics_enabled: False
 bind9_zones_dynamic:
   - name: it.orientalgroup.com
     type: master
-    file: db.it.orientalgroup.com
+    file: db.template
     records:
       - name: "@"
         ttl: 3600
