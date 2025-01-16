@@ -10,6 +10,7 @@ $TTL 86400
 
 ; Name Server Records
 @       IN NS    dns1.it.orientalgroup.com.
+@       IN NS    ansible.it.orientalgroup.com.
 ; Host Records
 dns1    IN A     192.168.130.2
 ansible IN A     192.168.130.10
