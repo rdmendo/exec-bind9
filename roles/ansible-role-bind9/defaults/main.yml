@@ -69,9 +69,9 @@ bind9_statistics_enabled: False
 # bind9_zone_dynamic: zone files created from template (see
 #         `templates/bind/zones/db.template.j2` for yaml structure)
 # bind9_zone_static:  zone files copied from `files/bind/zones/`
-bind9_zones_dynamic:
-  - { name: oriental, type=master }
-bind9_zones_static: []
+bind9_zones_dynamic: []
+bind9_zones_static:
+  - { name: it.orientalgroup.com, type = master}
 
 # Authoritative include files
 bind9_authoritative_includes: []
