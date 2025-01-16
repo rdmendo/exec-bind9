@@ -15,4 +15,4 @@ $TTL 86400
 bind9   IN A    192.168.130.2
 ansible IN A    192.168.130.10
 powerdns        IN A    192.168.130.3
-
+srv01   IN A    192.168.130.100
