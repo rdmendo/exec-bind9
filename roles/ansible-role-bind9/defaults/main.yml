@@ -5,7 +5,7 @@ bind9_user: bind
 bind9_group: bind
 
 # Run bind as a DNS recursor?
-bind9_recursor: no
+bind9_recursor: yes
 
 # Run bind as authoritative nameserver?
 bind9_authoritative: yes
