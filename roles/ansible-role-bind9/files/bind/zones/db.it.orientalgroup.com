@@ -12,3 +12,4 @@ $TTL 86400
 @       IN NS    dns1.it.orientalgroup.com.
 ; Host Records
 dns1    IN A     192.168.130.2
+ansible IN A     192.168.130.10
