@@ -12,5 +12,7 @@ $TTL 86400
 @       IN NS    bind9.it.orientalgroup.com.
 
 ; Host Records
-bind9   IN A     192.168.130.2
-ansible IN A     192.168.130.10
+bind9   IN A    192.168.130.2
+ansible IN A    192.168.130.10
+powerdns        IN A    192.168.30.3
+  
