@@ -1,19 +1,19 @@
 {# Structure of a yaml dynamic zone variable:
-- name: example.org
+- name: it.orientalgroup.com
   serial: YYYYMMDDNN
-  admin: postmaster.example.org
+  admin: postmaster.it.orientalgroup.com
   ns_records:
-    - ns1.example.org.
-    - ns2.example.org.
+    - ns1.it.orientalgroup.com
+    - ns2.it.orientalgroup.com.
   a_records:
-    - 192.168.0.1
+    - 192.168.130.2
   aaaa_records:
     - fc00::
   mx_records:
     - priority: 10
-      name: mx1.example.org.
+      name: mx1.it.orientalgroup.com.
   caa_records:
-    - 0 issue "example-ca.org"
+    - 0 issue "it.orientalgroup-ca.com"
   rrs:
     - label: subdomain
       type: A|CNAME|...
