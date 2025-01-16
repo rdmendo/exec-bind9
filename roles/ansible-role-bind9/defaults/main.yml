@@ -14,7 +14,7 @@ bind9_authoritative: yes
 bind9_forward: yes
 
 # Setup DNSSEC for recursor and zones?
-bind9_dnssec: no
+bind9_dnssec: yes
 
 # set QNAME minimization behavior in the BIND resolver; atm bind9 default is relaxed
 bind9_qname_minimization: "relaxed"
