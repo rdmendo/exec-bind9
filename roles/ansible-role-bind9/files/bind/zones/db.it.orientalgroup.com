@@ -8,6 +8,10 @@ $TTL 86400
                  1209600    ; Expire
                  86400 )    ; Minimum TTL
 
+; Name Server Records
+@       IN NS    dns1.it.orientalgroup.com.
+@       IN NS    dns2.it.orientalgroup.com.
+
 dns1    IN A     10.0.1.1
 dns2    IN A     10.0.1.2
 
