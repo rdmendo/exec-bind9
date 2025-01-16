@@ -69,7 +69,27 @@ bind9_statistics_enabled: False
 # bind9_zone_dynamic: zone files created from template (see
 #         `templates/bind/zones/db.template.j2` for yaml structure)
 # bind9_zone_static:  zone files copied from `files/bind/zones/`
-bind9_zones_dynamic: []
+bind9_zones_dynamic:
+- name: it.orientalgroup.com
+    type: master
+    file: db.it.orientalgroup.com
+    records:
+      - name: "@"
+        ttl: 3600
+        type: SOA
+        data: "ns1.it.orientalgroup.com. admin.it.orientalgroup.com. 2025011601 3600 1800 1209600 86400"
+      - name: "www"
+        ttl: 3600
+        type: A
+        data: "192.168.130.2"
+      - name: "@"
+        ttl: 3600
+        type: NS
+        data: "ns1.it.orientalgroup.com."
+      - name: "ns1"
+        ttl: 3600
+        type: A
+        data: "192.168.130.2"
 bind9_zones_static: []
 
 # Authoritative include files
