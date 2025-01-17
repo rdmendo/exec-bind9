@@ -36,11 +36,15 @@ bind9_zone_type: master
 bind9_our_networks:
   - localhost
   - localnets
+  - 192.168.122.0/23
+  - 192.168.130.0/23
 
 # Permitted hosts/networks for zone transfers
 bind9_our_neighbors:
   - localhost
   - localnets
+  - 192.168.122.0/23
+  - 192.168.130.0/23
 
 # Install custom rndc.key
 bind9_rndc_algorithm: hmac-md5
